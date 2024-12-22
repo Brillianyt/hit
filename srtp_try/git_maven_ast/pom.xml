@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>kaiyang_try.step1</groupId>
+  <artifactId>git_maven_ast</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>git_maven_ast</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-embedder</artifactId>
+    <version>4.0.0-rc-1</version>
+</dependency>
+     <dependency>
+        <groupId>org.apache.maven.shared</groupId>
+        <artifactId>maven-invoker</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.eclipse.jdt</groupId>
+        <artifactId>org.eclipse.jdt.core</artifactId>
+        <version>3.24.0</version> <!-- Check for the latest version -->
+    </dependency>
+    
+    
+
+
+
+  <!-- JGit 依赖 -->
+ <dependency>
+ <groupId>org.eclipse.jgit</groupId>
+    <artifactId>org.eclipse.jgit</artifactId>
+    <version>7.1.0.202411261347-r</version> 
+</dependency>
+ 
+    
+  </dependencies>
+</project>
